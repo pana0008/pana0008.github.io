@@ -1,5 +1,5 @@
 ## Hi there 👋
-
+I am a first year ICT student.
 <!--
 **pana0008/pana0008** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
