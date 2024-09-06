@@ -1,8 +1,9 @@
+
 body {
     background-image: url(https://images.unsplash.com/photo-1590258335103-0664be2e92bd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWVzdGhldGljJTIwZm9yZXN0fGVufDB8fDB8fHww);
     background-size: cover;
   }
-
+.navigation {
  ul {
     list-style-type: none;
     margin: 0;
@@ -30,6 +31,32 @@ body {
     background-color: #223d27;
   }
 
+
   .active {
     background-color: #83a68a;
   }
+}
+
+.aside {
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 250px;
+        background-color: #315a39;
+        margin-top: 50px
+      }
+    
+    li a {
+        display: block;
+        color:  antiquewhite;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+    background-color: #223d27;
+    }
+
+    
+}
