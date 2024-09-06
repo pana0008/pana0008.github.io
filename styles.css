@@ -3,6 +3,12 @@ body {
     background-image: url(https://images.unsplash.com/photo-1590258335103-0664be2e92bd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWVzdGhldGljJTIwZm9yZXN0fGVufDB8fDB8fHww);
     background-size: cover;
   }
+
+.home-title {
+    color:antiquewhite;
+    text-align: center;
+}
+
 .navigation {
  ul {
     list-style-type: none;
@@ -15,12 +21,13 @@ body {
     width: 100%;
   }
 
+
   li {
     float: left;
   }
   
   li a {
-    display: block;
+    display: inline-block;
     padding: 14px 16px;
     text-align: center;
     color: antiquewhite;
@@ -30,12 +37,13 @@ body {
   li a:hover {
     background-color: #223d27;
   }
-
-
+  
   .active {
     background-color: #83a68a;
   }
+  
 }
+
 
 .aside {
     ul {
