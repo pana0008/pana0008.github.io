@@ -119,20 +119,99 @@ body {
     color: rgb(60, 55, 40);
     text-align: center;
     margin-top: 50px;
-    font-family: Brush Script MT, cursive;
-    font-size: 60px;
+    font-size: 40px;
+    margin-right: 500px;
+}
+
+.why-ict {
+    color: rgb(60, 55, 40);
+    text-align: center;
+    font-size: 40px;
+    margin-right: 500px;
 }
 
 .about-me {
     color: rgb(60, 55, 40);
-    margin-left: 30px;
+    margin-left: 130px;
     text-align: justify;
-    font-size: 20px;
-    margin-right: 450px;
+    font-size: 23px;
+    margin-right: 600px;
 }
 
 .picture {
-    position: relative;
-    left: 1100px;
-    bottom: 180px;
+    position: absolute;
+    left: 1050px;
+    bottom: -500px;
+    border-radius: 15px;
+    overflow:hidden
+      
+}
+
+.picture-2 {
+    position: absolute;
+    left: 950px;
+    bottom: -1100px;
+    border-radius: 15px;
+    overflow:hidden
+}
+
+details {
+    padding: 6px;
+    background-color: rgb(222, 202, 175);
+    border-radius: 15px;
+    width: 50%;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 18px;
+  }
+
+summary {
+    list-style-position: outside;
+    margin-left: 30px;
+    padding: 10px 10px 10px 20px;
+    border-radius: 5px;
+    list-style-type: '🤎';
+  }
+
+  details[open] > summary {
+    border-bottom: 1px solid antiquewhite;
+    list-style-type: '🤎';
+  }
+
+/*swap picture*/
+.flower {
+    position: absolute;
+    left: 1120px;
+    bottom: -450px;
+    z-index: 1;
+}
+
+.answer {
+    padding: 10px;
+    text-align: justify;
+}
+
+
+
+.my-info {
+    color: rgb(60, 55, 40);
+    margin-left: 130px;
+    text-align: left;
+    font-size: 18px;
+    margin-right: 600px;
+    margin-top: 70px;
+}
+
+.introduction {
+    font-size: 40px;
+}
+
+.link {
+    color: rgb(60, 55, 40);
+    text-decoration: none;
+
+
+}
+a:hover {
+    color: rgb(177, 146, 107);
 }
