@@ -32,7 +32,7 @@ body {
   }
   
   .header h1 {
-    color: antiquewhite;
+    color: #faebd7;
     line-height: 100px; 
     font-size: 80px;
     margin-top: 0;
@@ -141,7 +141,7 @@ body {
 .picture {
     position: absolute;
     left: 1050px;
-    bottom: -500px;
+    bottom: -400px;
     border-radius: 15px;
     overflow:hidden
       
@@ -202,10 +202,47 @@ summary {
     margin-top: 70px;
 }
 
+.picture-3 {
+    position: absolute;
+    left: 980px;
+    bottom: -180px;
+    border-radius: 15px;
+    overflow:hidden
+}
+
 .introduction {
     font-size: 40px;
 }
 
+.profile-text {
+    font-size: 23px;
+}
+
+.characteristics {
+    font-size: 23px;
+    line-height: 2.5;
+}
+
+.hobbies {
+    font-size: 23px;
+}
+
+.hobbies ul {
+    line-height: 1.5;
+}
+
+.spotify {
+    font-size: 23px;
+}
+
+.spotify ul {
+    line-height: 2.5;
+}
+
+.spotify a {
+    color: rgb(60, 55, 40);
+    text-decoration: none;
+}
 .link {
     color: rgb(60, 55, 40);
     text-decoration: none;
@@ -213,5 +250,42 @@ summary {
 
 }
 a:hover {
-    color: rgb(177, 146, 107);
+    color: rgb(159, 129, 97);
 }
+
+
+.posts {
+    margin-top: 50px;
+}
+.blog-post {
+    padding: 6px;
+    background-color: rgb(222, 202, 175);
+    border-radius: 15px;
+    width: 45%;
+    text-align: left;
+    margin-top: 30px;
+    font-size: 18px;
+    flex-basis: content;
+    margin: 0 0px 15px;
+    overflow: hidden;
+}
+
+.blog-post img {
+    border-radius: 15px;
+    padding: 10px;
+    float: right;
+}
+
+
+
+.post-title {
+    color: rgb(60, 55, 40);
+    text-decoration: none;
+    padding: 20px;
+}
+
+.post-text {
+    color: rgb(60, 55, 40);
+    margin-left: 20px;
+}
+
