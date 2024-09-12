@@ -163,6 +163,7 @@ details {
     text-align: left;
     margin-top: 30px;
     font-size: 18px;
+    color: rgb(60, 55, 40);
   }
 
 summary {
@@ -191,7 +192,10 @@ summary {
     text-align: justify;
 }
 
-
+.faq-link {
+    color: rgb(60, 55, 40);
+    text-decoration: none;
+}
 
 .my-info {
     color: rgb(60, 55, 40);
@@ -208,6 +212,38 @@ summary {
     bottom: -180px;
     border-radius: 15px;
     overflow:hidden
+}
+
+#picture-4 {
+    position: absolute;
+    left: 980px;
+    bottom: -600px;
+    border-radius: 15px;
+    overflow:hidden
+}
+
+#screenshot {
+    position: absolute;
+    left: 980px;
+    bottom: -960px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#frog {
+    position: absolute;
+    left: 1050px;
+    bottom: -1460px;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+#lotr {
+    position: absolute;
+    left: 970px;
+    bottom: -1830px;
+    overflow: hidden;
+    border-radius: 15px;
 }
 
 .introduction {
