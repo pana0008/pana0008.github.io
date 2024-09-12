@@ -297,7 +297,7 @@ a:hover {
     padding: 6px;
     background-color: rgb(222, 202, 175);
     border-radius: 15px;
-    width: 45%;
+    width: 50%;
     text-align: left;
     margin-top: 30px;
     font-size: 18px;
@@ -317,7 +317,7 @@ a:hover {
 .post-title {
     color: rgb(60, 55, 40);
     text-decoration: none;
-    padding: 20px;
+    padding-left: 20px;
 }
 
 .post-text {
@@ -325,3 +325,23 @@ a:hover {
     margin-left: 20px;
 }
 
+.date {
+    color: rgb(60, 55, 40);
+    margin-left: 20px;
+    margin-top: -18px;
+}
+
+.button {
+    position: relative;
+    text-decoration: none;
+    color: antiquewhite;
+    background-color: rgb(60, 55, 40);
+    padding: 18px;
+    border-radius: 50px;
+    bottom: -15px;
+    left: 15px;
+}
+
+.button:hover {
+    background-color: antiquewhite;
+}
