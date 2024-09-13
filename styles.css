@@ -179,13 +179,14 @@ summary {
     list-style-type: '🤎';
   }
 
-/*swap picture*/
+/*swap picture
 .flower {
     position: absolute;
     left: 1120px;
     bottom: -450px;
     z-index: 1;
 }
+    */
 
 .answer {
     padding: 10px;
