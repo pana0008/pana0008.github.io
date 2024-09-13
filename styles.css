@@ -346,3 +346,40 @@ a:hover {
 .button:hover {
     background-color: antiquewhite;
 }
+
+.programming-title {
+    color: rgb(60, 55, 40);
+    margin-left: 130px;
+    text-align: left;
+    font-size: 18px;
+    margin-right: 600px;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.programming-text {
+    color: rgb(60, 55, 40);
+    margin-left: 130px;
+    text-align: justify;
+    font-size: 23px;
+    margin-right: 600px;
+}
+
+#certificate-1 {
+    position: absolute;
+    left: 940px;
+    bottom: -250px;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 300px;
+
+}
+
+#certificate-2 {
+    position: absolute;
+    left: 1200px;
+    bottom: -350px;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 300px;
+}
