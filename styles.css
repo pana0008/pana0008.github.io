@@ -1,81 +1,81 @@
-
-html, body {
+html,
+body {
     margin: 0;
     padding: 0;
-  }
+}
 
 
 body {
     background-color: antiquewhite;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
-  }
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
 
-  
-  .container {
+/*Header*/
+.container {
     margin: 0 auto;
-    max-width: 940px; 
+    max-width: 940px;
     padding: 0 10px;
-  }
-  
-  .header {
-    background: url(https://images.unsplash.com/photo-1590258335103-0664be2e92bd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWVzdGhldGljJTIwZm9yZXN0fGVufDB8fDB8fHww) no-repeat center center; 
+}
+
+.header {
+    background: url(https://images.unsplash.com/photo-1590258335103-0664be2e92bd?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8YWVzdGhldGljJTIwZm9yZXN0fGVufDB8fDB8fHww) no-repeat center center;
     background-size: cover;
     height: 500px;
-    text-align: center; 
+    text-align: center;
     z-index: 1;
     object-fit: contain;
-  }
-  
-  .header .container {
+}
+
+.header .container {
     position: relative;
     top: 200px;
-  }
-  
-  .header h1 {
+}
+
+.header h1 {
     color: #faebd7;
-    line-height: 100px; 
+    line-height: 100px;
     font-size: 80px;
     margin-top: 0;
     margin-bottom: 80px;
     font-family: Brush Script MT, cursive;
-  }
+}
 
 /*Navigation Menus*/
 .navigation {
- ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgb(60, 55, 40) ;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 10;
-  }
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgb(60, 55, 40);
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 10;
+    }
 
 
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: inline-block;
-    padding: 14px 16px;
-    text-align: center;
-    color: antiquewhite;
-    text-decoration: none;
-  }
+    li {
+        float: left;
+    }
 
-  li a:hover {
-    background-color: rgb(30, 28, 20);
-    transition: background .5s; 
-  }
-  
-  .active {
-    background-color: rgb(80, 75, 57);
-  }
-  
+    li a {
+        display: inline-block;
+        padding: 14px 16px;
+        text-align: center;
+        color: antiquewhite;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: rgb(30, 28, 20);
+        transition: background .5s;
+    }
+
+    .active {
+        background-color: rgb(80, 75, 57);
+    }
+
 }
 
 
@@ -90,18 +90,18 @@ body {
         background-color: rgb(60, 55, 40);
         margin-top: -562px;
         z-index: 9;
-      }
-    
+    }
+
     li a {
         display: block;
-        color:  antiquewhite;
+        color: antiquewhite;
         padding: 25px 16px;
         text-decoration: none;
     }
 
     li a:hover {
-    background-color: rgb(30, 28, 20);
-    transition: background .5s; 
+        background-color: rgb(30, 28, 20);
+        transition: background .5s;
     }
 
 
@@ -109,12 +109,12 @@ body {
 
 
 .border {
-    background:rgb(60, 55, 40);
-    height: 5px; 
+    background: rgb(60, 55, 40);
+    height: 5px;
     width: 100%;
 }
 
-
+/*Home Page*/
 .who-am-i {
     color: rgb(60, 55, 40);
     text-align: center;
@@ -143,8 +143,7 @@ body {
     left: 1050px;
     bottom: -400px;
     border-radius: 15px;
-    overflow:hidden
-      
+    overflow: hidden
 }
 
 .picture-2 {
@@ -152,9 +151,10 @@ body {
     left: 950px;
     bottom: -1100px;
     border-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
+/*FAQ Page*/
 details {
     padding: 6px;
     background-color: rgb(222, 202, 175);
@@ -164,7 +164,7 @@ details {
     margin-top: 30px;
     font-size: 18px;
     color: rgb(60, 55, 40);
-  }
+}
 
 summary {
     list-style-position: outside;
@@ -172,12 +172,12 @@ summary {
     padding: 10px 10px 10px 20px;
     border-radius: 5px;
     list-style-type: '🤎';
-  }
+}
 
-  details[open] > summary {
+details[open]>summary {
     border-bottom: 1px solid antiquewhite;
     list-style-type: '🤎';
-  }
+}
 
 /*swap picture
 .flower {
@@ -198,6 +198,7 @@ summary {
     text-decoration: none;
 }
 
+/*Profile Page*/
 .my-info {
     color: rgb(60, 55, 40);
     margin-left: 130px;
@@ -212,7 +213,7 @@ summary {
     left: 980px;
     bottom: -180px;
     border-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
 #picture-4 {
@@ -220,7 +221,7 @@ summary {
     left: 980px;
     bottom: -600px;
     border-radius: 15px;
-    overflow:hidden
+    overflow: hidden
 }
 
 #screenshot {
@@ -280,20 +281,24 @@ summary {
     color: rgb(60, 55, 40);
     text-decoration: none;
 }
+
 .link {
     color: rgb(60, 55, 40);
     text-decoration: none;
 
 
 }
+
 a:hover {
     color: rgb(159, 129, 97);
 }
 
 
+/*Blog Main Page*/
 .posts {
     margin-top: 50px;
 }
+
 .blog-post {
     padding: 6px;
     background-color: rgb(222, 202, 175);
@@ -348,6 +353,8 @@ a:hover {
     transition: 0.5s;
 }
 
+
+/*Programming Experience Blog Post*/
 .programming-title {
     color: rgb(60, 55, 40);
     margin-left: 130px;
@@ -384,3 +391,11 @@ a:hover {
     border-radius: 15px;
     width: 300px;
 }
+
+/*Profession Blog Post*/
+
+/*First Feedback Post*/
+
+/*SWOT Analysis Post*/
+
+/*Study Choice Post*/
