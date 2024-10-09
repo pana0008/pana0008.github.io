@@ -354,6 +354,63 @@ a:hover {
 }
 
 
+/*Blog Return Button*/
+.return-button {
+    position: relative;
+    top: 50px;
+    font-size: 2em;
+
+}
+
+.return-button a {
+    text-decoration: none;
+    padding: 12px;
+    background-color: rgb(60, 55, 40);
+    margin: 40px;
+    border-radius: 50px;
+}
+
+.return-button i {
+    width: 40px;
+    text-align: center;
+}
+
+.return-button a i{
+    color: antiquewhite;
+}
+
+.return-button a:hover {
+    background-color: antiquewhite;
+    transition: 0.5s;
+}
+
+.return-button a:hover i {
+    color: rgb(60, 55, 40);
+    transition: 0.5s;
+}
+
+
+/*Study Choice Blog Post*/
+.study-choice-title {
+    color: rgb(60, 55, 40);
+    margin-left: 130px;
+    text-align: left;
+    font-size: 18px;
+    margin-right: 600px;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+.study-choice-text {
+    color: rgb(60, 55, 40);
+    margin-left: 130px;
+    text-align: justify;
+    font-size: 23px;
+    margin-right: 700px;
+}
+
+/*SWOT Analysis Post*/
+
 /*Programming Experience Blog Post*/
 .programming-title {
     color: rgb(60, 55, 40);
@@ -370,7 +427,7 @@ a:hover {
     margin-left: 130px;
     text-align: justify;
     font-size: 23px;
-    margin-right: 600px;
+    margin-right: 700px;
 }
 
 #certificate-1 {
@@ -392,10 +449,8 @@ a:hover {
     width: 300px;
 }
 
-/*Profession Blog Post*/
 
 /*First Feedback Post*/
 
-/*SWOT Analysis Post*/
+/*Profession Blog Post*/
 
-/*Study Choice Post*/
