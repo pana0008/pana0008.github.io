@@ -553,3 +553,29 @@ a:hover {
     margin-right: 700px;
 }
 
+#from-software {
+    position: absolute;
+    left: 860px;
+    bottom: -350px;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 650px;
+}
+
+#cd-projekt {
+    position: absolute;
+    left: 860px;
+    bottom: -780px;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 650px;
+}
+
+#baldurs-gate {
+    position: absolute;
+    left: 860px;
+    bottom: -1200px;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 650px ;
+}
