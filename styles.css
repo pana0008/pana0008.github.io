@@ -409,7 +409,71 @@ a:hover {
     margin-right: 700px;
 }
 
+#first-code {
+    position: absolute;
+    left: 940px;
+    bottom: -670px;
+    overflow: hidden;
+    border-radius: 15px;
+    width: 500px;
+}
+
+
+
 /*SWOT Analysis Post*/
+.swot-box {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: rgb(222, 202, 175);
+    border-radius: 15px;
+    width: 30%;
+    margin-top: 30px;
+    flex-basis: content;
+    overflow: hidden;
+    font-size: 16px;
+    margin-left: 130px;
+    border: 1px solid rgb(60, 55, 40) ;
+}
+
+#strengths {
+    position: relative;
+    margin-left: 700px;
+    margin-right: 70px;
+    font-size: 22px;
+    text-align: justify;
+    bottom: 170px;
+
+}
+
+#weaknesses {
+    position: relative;
+    margin-left: 700px;
+    margin-right: 70px;
+    font-size: 22px;
+    text-align: justify;
+    bottom: 170px;
+}
+
+#opportunities {
+    position: relative;
+    margin-left: 700px;
+    margin-right: 70px;
+    font-size: 22px;
+    text-align: justify;
+    bottom: 170px;
+}
+
+#threats {
+    position: relative;
+    margin-left: 700px;
+    margin-right: 70px;
+    font-size: 22px;
+    text-align: justify;
+    bottom: 170px;
+}
+
 
 /*Programming Experience Blog Post*/
 .programming-title {
@@ -451,6 +515,41 @@ a:hover {
 
 
 /*First Feedback Post*/
+.feedback-text {
+    color: rgb(60, 55, 40);
+    margin-left: 130px;
+    text-align: justify;
+    font-size: 23px;
+    margin-right: 700px;
+    margin-top: 70px;
+}
+
+#feedback-forms {
+    width: 560px;
+    position: absolute;
+    left: 890px;
+    bottom: -330px;
+    overflow: hidden;
+    border-radius: 15px;
+}
 
 /*Profession Blog Post*/
+.profession-title {
+    color: rgb(60, 55, 40);
+    margin-left: 130px;
+    text-align: left;
+    font-size: 18px;
+    margin-right: 620px;
+    margin-top: 70px;
+    font-size: 40px;
+}
+
+
+.profession-text {
+    color: rgb(60, 55, 40);
+    margin-left: 130px;
+    text-align: justify;
+    font-size: 23px;
+    margin-right: 700px;
+}
 
