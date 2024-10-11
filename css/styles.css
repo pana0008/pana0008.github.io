@@ -565,7 +565,7 @@ a:hover {
 #cd-projekt {
     position: absolute;
     left: 860px;
-    bottom: -780px;
+    bottom: -790px;
     overflow: hidden;
     border-radius: 15px;
     width: 650px;
@@ -574,7 +574,7 @@ a:hover {
 #baldurs-gate {
     position: absolute;
     left: 860px;
-    bottom: -1200px;
+    bottom: -1250px;
     overflow: hidden;
     border-radius: 15px;
     width: 650px ;
